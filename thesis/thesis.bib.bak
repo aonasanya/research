@@ -16,7 +16,7 @@
   title     = {IoT Implementation for Cancer Care and Business Analytics/Cloud Services},
   booktitle = {In Proceedings of the 10th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2017)},
   year      = {2017},
-  number    = {205-206},
+  number    = {205--206},
   address   = {Austin, TX, USA},
   doi       = {https://doi.org/10.1145/3147213.3149217},
 }
