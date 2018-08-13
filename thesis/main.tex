@@ -1,0 +1,120 @@
+%
+% main.tex -- for my dissertation!
+%
+\documentclass[12pt]{report}
+\usepackage{caption}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{1}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+\usepackage{floatrow}
+\usepackage{float}
+\usepackage[table]{xcolor}
+\usepackage{multicol}
+\usepackage{array,multirow}
+\usepackage[margin=3cm]{geometry}
+\usepackage[autostyle]{csquotes}
+\usepackage[table]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage[toc,page]{appendix}
+\usepackage{adjustbox,lipsum}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{comment}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+%\tracingassigns=1\tracinggroups=1\tracingall
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+    \begin{doublespace}
+        \vspace*{3cm}
+
+        \large
+        Title
+
+        \vspace{1cm}
+
+        \large
+        A Thesis\\
+        Submitted to the Faculty of Graduate Studies and Research\\
+        In Partial Fulfillment of the Requirements\\
+        For the Degree of\\
+        Doctor of Philosophy\\
+        in Computer Science\\
+        University of Regina\\
+
+        \vspace{0.8cm}
+
+        \normalsize
+        By\\
+        Adeniyi Onasanya\\
+        Regina, Saskatchewan\\
+        September, 2018\\
+
+        \vspace{0.8cm}
+        \textcopyright \hspace*{0.2cm} Copyright 2018: Adeniyi Onasanya
+    \end{doublespace}
+    \end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+\abstract{}
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{doublespace}
+
+Abstract
+
+\end{doublespace}
+\newpage
+
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\begin{doublespace}
+\begin{center}
+\textbf{Acknowledgements}
+\end{center}
+
+Acknowledgements
+
+\end{doublespace}
+\newpage
+
+\addcontentsline{toc}{chapter}{Dedication}
+\begin{center}
+\textbf{\large Dedication}
+\end{center}
+
+Optional dedication.
+
+\newpage
+
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\cleardoublepage
+
+\pagenumbering{arabic}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{plain}
+\bibliography{thesis}
+
+\appendix
+\include{appendixA}
+\include{appendixB}
+\end{document}

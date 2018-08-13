@@ -1,0 +1,136 @@
+% Mathematics symbols
+%234567890123456789012345678901234567890123456789012345678901234567890
+%\setcounter{secnumdepth}{3}
+
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{corollary}[theorem]{Corollary}
+\newcounter{falc}
+
+\renewcommand{\floatpagefraction}{0.7}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+
+
+\newenvironment{algo}[2]{
+	\refstepcounter{flotxt}
+	\renewcommand{\baselinestretch}{1.1}
+	\footnotesize
+	\begin{tabbing} 
+	xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=
+	xxxxxxxx\=xxxxxxxx\=xxxxxxxx\= \kill
+	\rule{6in}{0.02in} \\
+	{\bf ALGORITHM \theflotxt} \>\>\> {\bf #1}\\ 
+	{\bf PURPOSE} \>\>\> #2\\ 
+	\rule[6pt]{6in}{0.02in}\\ }{ \normalsize 
+	\end{tabbing} 
+	\rule[24pt]{6in}{0.02in}
+	\renewcommand{\baselinestretch}{1.3} 
+}
+
+\newenvironment{proc}[2]{
+	\renewcommand{\baselinestretch}{1.1}
+	\footnotesize
+	\begin{tabbing} 
+	xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=
+	xxxxxxxx\=xxxxxxxx\=xxxxxxxx\= \kill
+	\rule{6in}{0.01in} \\
+	{\bf Procedure} \>\>\> {\bf #1}\\ 
+	{\bf Purpose} \>\>\> #2\\ 
+	\rule[6pt]{6in}{0.01in}\\ }{ \normalsize 
+	\end{tabbing} 
+	\rule[24pt]{6in}{0.01in}
+	\renewcommand{\baselinestretch}{1.3}
+	\vspace{-\parsep}
+}
+
+\newcommand{\ms}[1]{\makebox[1.2cm][r]{#1}}
+\newcommand{\ns}[1]{\mbox{#1}}
+\newcommand{\tmtwo}[6]{
+	\left[
+	\begin{array}{rrr}
+	\ms{#1}	& \ms{#4}	& \ms{0.000} \\
+	#2 	& #5		& 0.000 \\
+	#3 	& #6 		& 1.000 \\
+	\end{array}
+	\right]
+}
+
+\newcommand{\mcw}{\multicolumn{2}{l}}
+\newcommand{\scc}{\multicolumn{1}{|c|}}
+\newcommand{\mcb}{\multicolumn{2}{l|}}
+\newcommand{\cbstart}{
+	\begin{flushright}
+	\begin{tabular}{|l|l|}
+	\hline
+	\makebox[48pt][l]{\em type}&\makebox[330pt][l]{\em command}\\
+	\hline
+}
+\newcommand{\cbfin}{
+	\end{tabular}
+	\end{flushright}
+}
+
+\newcommand{\mpb}[1]{\makebox(0,0)[b]{#1}}
+\newcommand{\bp}{\begin{picture}(0,0)}
+\newcommand{\ppe}[3]{\put(#1,#2){\mpb{#3}}}
+\newcommand{\fp}{\end{picture}}
+\newcommand{\lpref}{
+	\begin{picture}(0,0)
+	\put(0,0){\circle*{2}}
+	\end{picture}
+}
+
+\newcommand{\cbt}{\makebox[48pt][l]{\em type}&\makebox[330pt][l]{\em command}}
+\newcommand{\cbs}{\hspace{20pt}}
+
+\newcommand{\attrac}{{\cal A}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\bee}{{\cal B}}
+\newcommand{\cll}{{\cal L}}
+\newcommand{\emm}{{\cal M}}
+\newcommand{\tee}{{\cal T}}
+\newcommand{\pee}{{\cal P}}
+\newcommand{\ii}{\int\limits}
+\newcommand{\nn}[1] {\parallel #1 \parallel}
+\newcommand{\xn}{\parallel x \parallel}
+\newcommand{\abs}[1] {\mid #1 \mid}
+\newcommand{\ie}{i.e.\ }
+
+\newcommand {\figframe}{
+	\thicklines
+	\centering
+	\begin{picture}(122,40)
+	\put(0,0){\framebox(122,40)}
+	\end{picture}
+}
+
+\newcommand{\sep}{
+	\\
+	\noindent
+	\begin{picture}(0,0)
+	\put(0,0){\line(144,0){144}}
+	\end{picture}
+}
+
+\newcommand{\plfv}{
+	\begin{center}
+	\begin{picture}(280,380)
+	\put(0,0){\line(1,0){280}}
+	\put(280,0){\line(0,1){380}}
+	\put(280,380){\line(-1,0){280}}
+	\put(0,380){\line(0,-1){380}}
+	\end{picture}
+	\end{center}
+}
+
+\newcommand{\plfh}{
+	\begin{center}
+	\begin{picture}(380,280)
+	\put(0,0){\line(1,0){380}}
+	\put(380,0){\line(0,1){280}}
+	\put(380,280){\line(-1,0){380}}
+	\put(0,280){\line(0,-1){280}}
+	\end{picture}
+	\end{center}
+}
