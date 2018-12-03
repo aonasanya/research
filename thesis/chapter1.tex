@@ -1,0 +1,98 @@
+%!TEX root = thesis.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% chapter1.tex
+%
+%
+% $Author: The Student $
+% $Date: 2011/04/30
+%
+% 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Introduction}
+\label{Introduction}
+        %\addcontentsline{toc}{chapter}{Introduction}
+	%\chaptermark{Introduction}
+	%\markboth{Introduction}{Introduction}
+	% The three lines above not needed with our current style sheet.
+	% Sometimes, such things are done to make sure that the headers are right, that the intro gets included in the table of contents, and that it doesn't get numbered 1 so that chapter one is 1.
+
+% Double spacing is normal in a thesis.
+% If you want to single space, use the
+% \singlespacing 
+% command on a line by itself. The others are
+% \onehalfspacing
+% \doublespacing
+	
+\indent 
+The ability to write a thesis depends on putting one word after another.
+Once you have managed that, you just have to keep repeating it.
+You probably should continue until you are exhaused or done.
+
+Sometimes, you want to cite documents to acknowledge ideas 
+or to share the blame.  I am citing something here\cite{Levin:2007}.  
+Here I want to give credit to many\cite{Levin:2007, Tran:2005, Ziegler:1991}.
+When you put several items in the same cite, put them in the order 
+they should appear, which is alphabetical (or numeric) order for most styles.
+Now I have no more to say in this paragraph.
+
+Other paragraphs would be boring too.
+Therefore, it is now time to include a picture.  
+The picture is shown in Figure \ref{PrettyPicture}.
+
+\begin{figure}[tb]
+% the options are h = here, t = top, b = bottom, p = page of figures.
+% you can add an exclamation mark to make it try harder, and multiple
+% options if you have an order of preference, e.g.
+% \begin{figure}[h!tbp]
+    \centering
+    % DO NOT ADD A FILENAME EXTENSION TO THE GRAPHIC FILE; HERE THE FILE IS prettyfile.png
+    \includegraphics[scale=0.90]{prettyfile}
+    \caption{Pretty picture \cite{Levin:2007} }
+    \label{PrettyPicture}
+\end{figure}
+	
+This may not be the correct reference for this picture, so
+don't keep this reference in your thesis.
+
+\section{Specific Problem}
+\label{SpecificProblem}
+
+\indent 
+This is a subsection of chapter 1.  It could be really interesting.
+But it isn't.
+
+\section{Motivation}
+\label{Motivation}
+
+\indent  This is a second subsection of the thesis.
+It is about motivation.
+
+It also has a figure (see Figure \ref{OtherPicture}).
+
+\begin{figure}[tb]
+\centering
+% DO NOT ADD A FILENAME EXTENSION TO THE GRAPHIC FILE; here otherfile.png is included
+\includegraphics{otherfile}
+\caption{Other Figure for My Thesis}
+\label{OtherPicture}
+\end{figure}
+
+
+I could write more words here but I am too tired.
+
+\section{Structure of the Remainder of the Thesis}
+\label{StructureOfTheRemainderOfTheThesis}
+	
+\indent 
+Chapter 2 presents something.
+
+In Chapter 3, more things are explained.
+
+In Chapter 4, I run out of words.
+
+Finally a summary, a conclusion, and suggestions for future work are presented in Chapter 5.  
+Appendix A provides a more detailed explanation of nothing.  Appendix B gives even
+less information than Appendix A.
