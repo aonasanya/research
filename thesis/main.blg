@@ -29,7 +29,7 @@ Warning--empty publisher in onas2
 Warning--empty publisher in vermesan
 You've used 21 entries,
             2118 wiz_defined-function locations,
-            599 strings with 7240 characters,
+            599 strings with 7238 characters,
 and the built_in function-call counts, 6116 in all, are:
 = -- 567
 > -- 254
