@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+The style file: plain.bst
+A level-1 auxiliary file: appendixA.aux
+A level-1 auxiliary file: appendixB.aux
+Database file #1: thesis.bib
+Warning--I didn't find a database entry for "Levin:2007"
+Warning--I didn't find a database entry for "Tran:2005"
+Warning--I didn't find a database entry for "Ziegler:1991"
+Warning--to sort, need author or key in awireless
+Warning--to sort, need author or key in grandresearchview
+Warning--to sort, need author or key in iercdefinition
+Warning--to sort, need author or key in ieee-sa-iot
+Warning--to sort, need author or key in whatisiot
+Warning--to sort, need author or key in simplyIoT
+Warning--to sort, need author or key in smartcities1
+Warning--to sort, need author or key in indianexpress
+Warning--empty publisher in kiritsis
+Warning--there's a number but no series in onas1
+Warning--can't use both author and editor fields in onas2
+Warning--empty chapter and pages in onas2
+Warning--empty publisher in onas2
+Warning--empty publisher in vermesan
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            599 strings with 7240 characters,
+and the built_in function-call counts, 6116 in all, are:
+= -- 567
+> -- 254
+< -- 5
++ -- 109
+- -- 84
+* -- 379
+:= -- 905
+add.period$ -- 47
+call.type$ -- 21
+change.case$ -- 98
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 256
+empty$ -- 555
+format.name$ -- 84
+if$ -- 1339
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 92
+num.names$ -- 26
+pop$ -- 175
+preamble$ -- 1
+purify$ -- 84
+quote$ -- 0
+skip$ -- 223
+stack$ -- 0
+substring$ -- 335
+swap$ -- 67
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 70
+warning$ -- 14
+while$ -- 42
+width$ -- 23
+write$ -- 180
+(There were 17 warnings)
